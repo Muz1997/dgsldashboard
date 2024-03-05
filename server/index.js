@@ -23,6 +23,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 /* Routes */
+console.log("this is server side");
 
 app.use("/client", clientRoutes);
 app.use("/gernal", generalRoutes);
